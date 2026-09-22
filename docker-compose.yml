@@ -18,10 +18,10 @@ services:
     build:
       context: ./services/auth_service
       dockerfile: Dockerfile.dev
+    user: "${UID:-1000}:${GID:-1000}"
     command: bin/rails server -b 0.0.0.0 -p 3000
     volumes:
       - ./services/auth_service:/rails
-      - auth_bundle:/usr/local/bundle
     ports:
       - "3000:3000"
     environment:
@@ -35,4 +35,3 @@ services:
 
 volumes:
   postgres_data:
-  auth_bundle:

@@ -1,5 +1,8 @@
 FROM ruby:3.4.10
 
+ARG UID=1000
+ARG GID=1000
+
 RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y \
       build-essential \
@@ -10,6 +13,9 @@ RUN apt-get update -qq && \
       curl && \
     rm -rf /var/lib/apt/lists/*
 
+RUN groupadd -g ${GID} app && \
+    useradd -m -u ${UID} -g ${GID} -s /bin/bash app
+
 WORKDIR /rails
 
 COPY Gemfile Gemfile.lock ./
@@ -17,6 +23,10 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
+
+RUN chown -R app:app /rails
+
+USER app
 
 EXPOSE 3000
 
