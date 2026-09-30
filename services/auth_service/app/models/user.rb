@@ -6,7 +6,6 @@ class User < ApplicationRecord
          :validatable
 
   has_many :memberships, dependent: :destroy
-  has_many :clinics, through: :memberships
 
   validates :name, presence: true
 end

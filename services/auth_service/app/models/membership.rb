@@ -1,6 +1,5 @@
 class Membership < ApplicationRecord
   belongs_to :user
-  belongs_to :clinic
 
   enum :role, {
     patient: 0,
@@ -8,6 +7,7 @@ class Membership < ApplicationRecord
     admin: 2
   }
 
+  validates :clinic_id, presence: true
   validates :role, presence: true
   validates :user_id, uniqueness: { scope: :clinic_id }
 end

@@ -10,23 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_09_25_123031) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_30_175050) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
-  create_table "clinics", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.string "name", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "memberships", force: :cascade do |t|
-    t.bigint "clinic_id", null: false
+    t.uuid "clinic_id", null: false
     t.datetime "created_at", null: false
     t.integer "role", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id", null: false
-    t.index ["clinic_id"], name: "index_memberships_on_clinic_id"
     t.index ["user_id", "clinic_id"], name: "index_memberships_on_user_id_and_clinic_id", unique: true
     t.index ["user_id"], name: "index_memberships_on_user_id"
   end
@@ -44,6 +37,5 @@ ActiveRecord::Schema[8.1].define(version: 2026_09_25_123031) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "memberships", "clinics"
   add_foreign_key "memberships", "users"
 end
