@@ -1,0 +1,11 @@
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+  [1m[35mSQL (0.5ms)[0m  [1m[35mSET search_path TO public /*application='ClinicService'*/[0m
+  [1m[35m (146.8ms)[0m  [1m[35mCREATE DATABASE "clinic_service_development" ENCODING = 'unicode' /*application='ClinicService'*/[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mSET search_path TO public /*application='ClinicService'*/[0m
+  [1m[35m (36.5ms)[0m  [1m[35mCREATE DATABASE "clinic_service_test" ENCODING = 'unicode' /*application='ClinicService'*/[0m
