@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
 
+  get "oauth/authorize", to: "oauth/authorizations#show",
+                         as: :oauth_authorize
+
   authenticated :user do
     root "dashboard#index", as: :authenticated_root
   end
