@@ -34,7 +34,21 @@ module Oauth
                       status: :bad_request
       end
 
-      render plain: "Solicitação de autorização válida"
+      code = OauthAuthorizationCode.issue!(
+        user: current_user,
+        client_id: params[:client_id],
+        redirect_uri: params[:redirect_uri],
+        code_challenge: params[:code_challenge]
+      )
+
+      redirect_to(
+        "#{client[:redirect_uri]}?#{{
+          code: code,
+          state: params[:state]
+        }.to_query}",
+        allow_other_host: true,
+        status: :see_other
+      )
     end
 
     private

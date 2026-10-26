@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get "oauth/authorize", to: "oauth/authorizations#show",
                          as: :oauth_authorize
+  
+  post "oauth/token", to: "oauth/tokens#create"
 
   authenticated :user do
     root "dashboard#index", as: :authenticated_root
