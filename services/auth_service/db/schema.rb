@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_10_19_191219) do
+ActiveRecord::Schema[8.1].define(version: 2026_09_30_180137) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -22,20 +22,6 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_19_191219) do
     t.bigint "user_id", null: false
     t.index ["user_id", "clinic_id"], name: "index_memberships_on_user_id_and_clinic_id", unique: true
     t.index ["user_id"], name: "index_memberships_on_user_id"
-  end
-
-  create_table "oauth_authorization_codes", force: :cascade do |t|
-    t.string "client_id", null: false
-    t.string "code_challenge", null: false
-    t.string "code_digest", null: false
-    t.datetime "created_at", null: false
-    t.datetime "expires_at", null: false
-    t.string "redirect_uri", null: false
-    t.datetime "updated_at", null: false
-    t.datetime "used_at"
-    t.bigint "user_id", null: false
-    t.index ["code_digest"], name: "index_oauth_authorization_codes_on_code_digest", unique: true
-    t.index ["user_id"], name: "index_oauth_authorization_codes_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -53,5 +39,4 @@ ActiveRecord::Schema[8.1].define(version: 2026_10_19_191219) do
   end
 
   add_foreign_key "memberships", "users"
-  add_foreign_key "oauth_authorization_codes", "users"
 end
