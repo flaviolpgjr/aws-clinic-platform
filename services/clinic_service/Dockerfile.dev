@@ -24,7 +24,8 @@ RUN bundle install
 
 COPY . .
 
-RUN chown -R app:app /rails
+RUN mkdir -p /usr/local/bundle/cache && \
+    chown -R app:app /usr/local/bundle
 
 USER app
 

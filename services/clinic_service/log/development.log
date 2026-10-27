@@ -31,3 +31,648 @@ Migrating to CreateClinics (20261001122645)
 Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
 Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
 Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:48:00 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=R1mp2OALcIs66MjsYF9GwZzS2uaWTcApfEk1aNqUYI0&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=b0b180efe4751d6e6bb419df52ac52b4c67a9f68da79c1aa82c06ffd342411c2
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:48:04 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=is8zXRUMoPfFwtGufS2SUIATJx9YmiMCSyy8lKgNcio&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=71a72479042a4526d6a3c6f1719b9c4ca204a345262bc0d90c1e9a2dfe881cd9
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:48:27 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=v2E49xuhnfHW7sLIcafjKxt5Zp_Qk4XKmG8VarjeNxA&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=be86d3f8b318b1e532e78aaf83fd0de22ac4691cc0220f821ce92ff62a92cd48
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:49:46 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=-bAIuJk4gGdOa757snEfqNfKka0y2Ya9OdAb0p8kFs4&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=2ad9ba05de760dcfd16f4fedebada73286e58ea1acf590f9ef02778fb09da581
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauthlogin" for 172.19.0.1 at 2026-10-27 18:49:50 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/oauthlogin"):
+  
+Started GET "/favicon.ico" for 172.19.0.1 at 2026-10-27 18:49:50 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:49:53 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=Zu-ZD0yQm3J3BKS8njuoZsGiTfCDVAZp-AC0zGo4I2Y&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=9a852b90ace2a2973ee2d121dddb43408c956f2ddc840671ea42ae9b1954657c
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:50:35 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=mCOJ3q_qbKvpFpU7BeL3AO3-AMs3uT59J4-u08NA1ik&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=1278894b0bc15d9d40d5cf317d36bb766d6f44505f777be7323a623b6aa48839
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback" for 172.19.0.1 at 2026-10-27 18:51:55 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 172.19.0.1 at 2026-10-27 18:52:38 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by ClinicsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clinics/index.html.erb within layouts/application
+  Rendered clinics/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 200 OK in 48ms (Views: 12.1ms | ActiveRecord: 9.1ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 172.19.0.1 at 2026-10-27 18:52:43 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by ClinicsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clinics/index.html.erb within layouts/application
+  Rendered clinics/index.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback" for 172.19.0.1 at 2026-10-27 18:52:55 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:53:36 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=-oLj0R14ygL6pNiHIuTqmjQ7U4_EqCNV4PyP6ujd1kQ&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&state=5d722d6f9af1f533e5e03c0a80536faa09e96872cde30b8700d7a7c55e2c6afd
+↳ app/controllers/oauth/sessions_controller.rb:23:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:56:10 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+  
+ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">)
+Caused by: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+)
+
+Information for: ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">):
+  
+activesupport (8.1.4) lib/active_support/error_reporter.rb:235:in 'ActiveSupport::ErrorReporter#report'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:36:in 'ActionDispatch::Executor#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in 'ActionDispatch::ActionableExceptions#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:31:in 'ActionDispatch::DebugExceptions#call'
+web-console (4.3.0) lib/web_console/middleware.rb:132:in 'WebConsole::Middleware#call_app'
+web-console (4.3.0) lib/web_console/middleware.rb:19:in 'block in WebConsole::Middleware#call'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'Kernel#catch'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'WebConsole::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/show_exceptions.rb:32:in 'ActionDispatch::ShowExceptions#call'
+railties (8.1.4) lib/rails/rack/logger.rb:41:in 'Rails::Rack::Logger#call_app'
+railties (8.1.4) lib/rails/rack/logger.rb:29:in 'Rails::Rack::Logger#call'
+propshaft (1.3.2) lib/propshaft/quiet_assets.rb:11:in 'Propshaft::QuietAssets#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/remote_ip.rb:98:in 'ActionDispatch::RemoteIp#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/request_id.rb:34:in 'ActionDispatch::RequestId#call'
+rack (3.2.7) lib/rack/method_override.rb:28:in 'Rack::MethodOverride#call'
+rack (3.2.7) lib/rack/runtime.rb:24:in 'Rack::Runtime#call'
+activesupport (8.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:30:in 'ActiveSupport::Cache::Strategy::LocalCache::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:61:in 'block in ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:26:in 'ActionDispatch::ServerTiming::Subscriber#collect_events'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:60:in 'ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:20:in 'ActionDispatch::Executor#call'
+propshaft (1.3.2) lib/propshaft/server.rb:37:in 'Propshaft::Server#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/static.rb:27:in 'ActionDispatch::Static#call'
+rack (3.2.7) lib/rack/sendfile.rb:131:in 'Rack::Sendfile#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/host_authorization.rb:144:in 'ActionDispatch::HostAuthorization#call'
+railties (8.1.4) lib/rails/engine.rb:534:in 'Rails::Engine#call'
+puma (8.0.2) lib/puma/configuration.rb:305:in 'Puma::Configuration::ConfigMiddleware#call'
+puma (8.0.2) lib/puma/response.rb:79:in 'block in Puma::Response#handle_request'
+puma (8.0.2) lib/puma/thread_pool.rb:434:in 'Puma::ThreadPool#with_force_shutdown'
+puma (8.0.2) lib/puma/response.rb:78:in 'Puma::Response#handle_request'
+puma (8.0.2) lib/puma/server.rb:508:in 'Puma::Server#process_client'
+puma (8.0.2) lib/puma/server.rb:263:in 'block in Puma::Server#run'
+puma (8.0.2) lib/puma/thread_pool.rb:246:in 'block in Puma::ThreadPool#spawn_thread'
+
+Information for cause: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+):
+  
+app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:56:13 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  
+ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">)
+Caused by: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+)
+
+Information for: ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">):
+  
+activesupport (8.1.4) lib/active_support/error_reporter.rb:235:in 'ActiveSupport::ErrorReporter#report'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:36:in 'ActionDispatch::Executor#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in 'ActionDispatch::ActionableExceptions#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:31:in 'ActionDispatch::DebugExceptions#call'
+web-console (4.3.0) lib/web_console/middleware.rb:132:in 'WebConsole::Middleware#call_app'
+web-console (4.3.0) lib/web_console/middleware.rb:19:in 'block in WebConsole::Middleware#call'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'Kernel#catch'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'WebConsole::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/show_exceptions.rb:32:in 'ActionDispatch::ShowExceptions#call'
+railties (8.1.4) lib/rails/rack/logger.rb:41:in 'Rails::Rack::Logger#call_app'
+railties (8.1.4) lib/rails/rack/logger.rb:29:in 'Rails::Rack::Logger#call'
+propshaft (1.3.2) lib/propshaft/quiet_assets.rb:11:in 'Propshaft::QuietAssets#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/remote_ip.rb:98:in 'ActionDispatch::RemoteIp#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/request_id.rb:34:in 'ActionDispatch::RequestId#call'
+rack (3.2.7) lib/rack/method_override.rb:28:in 'Rack::MethodOverride#call'
+rack (3.2.7) lib/rack/runtime.rb:24:in 'Rack::Runtime#call'
+activesupport (8.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:30:in 'ActiveSupport::Cache::Strategy::LocalCache::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:61:in 'block in ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:26:in 'ActionDispatch::ServerTiming::Subscriber#collect_events'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:60:in 'ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:20:in 'ActionDispatch::Executor#call'
+propshaft (1.3.2) lib/propshaft/server.rb:37:in 'Propshaft::Server#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/static.rb:27:in 'ActionDispatch::Static#call'
+rack (3.2.7) lib/rack/sendfile.rb:131:in 'Rack::Sendfile#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/host_authorization.rb:144:in 'ActionDispatch::HostAuthorization#call'
+railties (8.1.4) lib/rails/engine.rb:534:in 'Rails::Engine#call'
+puma (8.0.2) lib/puma/configuration.rb:305:in 'Puma::Configuration::ConfigMiddleware#call'
+puma (8.0.2) lib/puma/response.rb:79:in 'block in Puma::Response#handle_request'
+puma (8.0.2) lib/puma/thread_pool.rb:434:in 'Puma::ThreadPool#with_force_shutdown'
+puma (8.0.2) lib/puma/response.rb:78:in 'Puma::Response#handle_request'
+puma (8.0.2) lib/puma/server.rb:508:in 'Puma::Server#process_client'
+puma (8.0.2) lib/puma/server.rb:263:in 'block in Puma::Server#run'
+puma (8.0.2) lib/puma/thread_pool.rb:246:in 'block in Puma::ThreadPool#spawn_thread'
+
+Information for cause: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+):
+  
+app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:56:37 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  
+ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">)
+Caused by: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+)
+
+Information for: ArgumentError (Reported error must be an Exception, got: #<SyntaxError:"/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found\n  18 |       state: state,\n  19 |       scope: \"read\"\n> 20 |       code_challenge: code_challenge,\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input\n     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments\n     |                     ^ unexpected ':', ignoring it\n     |                     ^ unexpected ':', expecting end-of-input\n     |                       ^~~~~~~~~~~~~~~ unexpected write target\n     |                                     ^ expected an expression after `,`\n> 21 |       code_challenge_method: \"S256\"\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it\n     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input\n> 22 |     )\n     |     ^ unexpected ')', ignoring it\n  23 | \n  24 |     redirect_to authorization_url, allow_other_host: true\n">):
+  
+activesupport (8.1.4) lib/active_support/error_reporter.rb:235:in 'ActiveSupport::ErrorReporter#report'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:36:in 'ActionDispatch::Executor#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in 'ActionDispatch::ActionableExceptions#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:31:in 'ActionDispatch::DebugExceptions#call'
+web-console (4.3.0) lib/web_console/middleware.rb:132:in 'WebConsole::Middleware#call_app'
+web-console (4.3.0) lib/web_console/middleware.rb:19:in 'block in WebConsole::Middleware#call'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'Kernel#catch'
+web-console (4.3.0) lib/web_console/middleware.rb:17:in 'WebConsole::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/show_exceptions.rb:32:in 'ActionDispatch::ShowExceptions#call'
+railties (8.1.4) lib/rails/rack/logger.rb:41:in 'Rails::Rack::Logger#call_app'
+railties (8.1.4) lib/rails/rack/logger.rb:29:in 'Rails::Rack::Logger#call'
+propshaft (1.3.2) lib/propshaft/quiet_assets.rb:11:in 'Propshaft::QuietAssets#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/remote_ip.rb:98:in 'ActionDispatch::RemoteIp#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/request_id.rb:34:in 'ActionDispatch::RequestId#call'
+rack (3.2.7) lib/rack/method_override.rb:28:in 'Rack::MethodOverride#call'
+rack (3.2.7) lib/rack/runtime.rb:24:in 'Rack::Runtime#call'
+activesupport (8.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:30:in 'ActiveSupport::Cache::Strategy::LocalCache::Middleware#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:61:in 'block in ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:26:in 'ActionDispatch::ServerTiming::Subscriber#collect_events'
+actionpack (8.1.4) lib/action_dispatch/middleware/server_timing.rb:60:in 'ActionDispatch::ServerTiming#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/executor.rb:20:in 'ActionDispatch::Executor#call'
+propshaft (1.3.2) lib/propshaft/server.rb:37:in 'Propshaft::Server#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/static.rb:27:in 'ActionDispatch::Static#call'
+rack (3.2.7) lib/rack/sendfile.rb:131:in 'Rack::Sendfile#call'
+actionpack (8.1.4) lib/action_dispatch/middleware/host_authorization.rb:144:in 'ActionDispatch::HostAuthorization#call'
+railties (8.1.4) lib/rails/engine.rb:534:in 'Rails::Engine#call'
+puma (8.0.2) lib/puma/configuration.rb:305:in 'Puma::Configuration::ConfigMiddleware#call'
+puma (8.0.2) lib/puma/response.rb:79:in 'block in Puma::Response#handle_request'
+puma (8.0.2) lib/puma/thread_pool.rb:434:in 'Puma::ThreadPool#with_force_shutdown'
+puma (8.0.2) lib/puma/response.rb:78:in 'Puma::Response#handle_request'
+puma (8.0.2) lib/puma/server.rb:508:in 'Puma::Server#process_client'
+puma (8.0.2) lib/puma/server.rb:263:in 'block in Puma::Server#run'
+puma (8.0.2) lib/puma/thread_pool.rb:246:in 'block in Puma::ThreadPool#spawn_thread'
+
+Information for cause: SyntaxError (/rails/app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+  18 |       state: state,
+  19 |       scope: "read"
+> 20 |       code_challenge: code_challenge,
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method, expecting end-of-input
+     |       ^~~~~~~~~~~~~~ unexpected local variable or method; expected a `)` to close the arguments
+     |                     ^ unexpected ':', ignoring it
+     |                     ^ unexpected ':', expecting end-of-input
+     |                       ^~~~~~~~~~~~~~~ unexpected write target
+     |                                     ^ expected an expression after `,`
+> 21 |       code_challenge_method: "S256"
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, ignoring it
+     |       ^~~~~~~~~~~~~~~~~~~~~~ unexpected label, expecting end-of-input
+> 22 |     )
+     |     ^ unexpected ')', ignoring it
+  23 | 
+  24 |     redirect_to authorization_url, allow_other_host: true
+):
+  
+app/controllers/oauth/sessions_controller.rb:20: syntax errors found
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:57:30 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=6TG0dJJiu8-sWrNSYpHZcx8WDBj2ynWTcwWLf6fiBmc&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=c0b257b4648dea37df40d561f3ab122950de1da1024d23bd0b42bef5ca2237d8
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=JL4QU5I9oWKbl9ETlL1q4XtnYqiEYwNsfNBM4Iy4iho&state=c0b257b4648dea37df40d561f3ab122950de1da1024d23bd0b42bef5ca2237d8" for 172.19.0.1 at 2026-10-27 18:57:33 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "JL4QU5I9oWKbl9ETlL1q4XtnYqiEYwNsfNBM4Iy4iho", "state" => "c0b257b4648dea37df40d561f3ab122950de1da1024d23bd0b42bef5ca2237d8"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:58:46 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=nkRz8df8YfuX1kf8M5p7jJxtUicOEoEj7rQ_Te2Kg70&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=2c0d0673d3851f12fee5dac488094a1001230f93d554fe8f0bbf8d2e0d0d48a5
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=urWrryN5OqnZhtCvlQyjvEYPeNczahBrYHMyt4141wY&state=2c0d0673d3851f12fee5dac488094a1001230f93d554fe8f0bbf8d2e0d0d48a5" for 172.19.0.1 at 2026-10-27 18:58:49 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "urWrryN5OqnZhtCvlQyjvEYPeNczahBrYHMyt4141wY", "state" => "2c0d0673d3851f12fee5dac488094a1001230f93d554fe8f0bbf8d2e0d0d48a5"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 47ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:58:49 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=nAOGHgy7iqWjLYz0_vpSzTZYMc3jdEeBx-nXBy1TUAk&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=c91548897875cdb9e76b5dc393b5afade7d1af8600583985f0707b6ca9771a6f
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=pQPDV8OI-HdRfsWsPaqK9t6CyrrI67AxWVZImAAOux8&state=c91548897875cdb9e76b5dc393b5afade7d1af8600583985f0707b6ca9771a6f" for 172.19.0.1 at 2026-10-27 18:58:50 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "pQPDV8OI-HdRfsWsPaqK9t6CyrrI67AxWVZImAAOux8", "state" => "c91548897875cdb9e76b5dc393b5afade7d1af8600583985f0707b6ca9771a6f"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:58:50 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=Sybnby1KwNNuej8I1TDCzPUqt0VEzANG9k0MuKLVQG0&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=b3dc460681b6b0daf7f46e25ff5898c4a873605fafd22e37ebb277dd26d0d42f
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=JARvwfBRzQ55tFu9ntfpfZ_S_NjEPW20lLrcS0Rjvkg&state=b3dc460681b6b0daf7f46e25ff5898c4a873605fafd22e37ebb277dd26d0d42f" for 172.19.0.1 at 2026-10-27 18:58:55 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "JARvwfBRzQ55tFu9ntfpfZ_S_NjEPW20lLrcS0Rjvkg", "state" => "b3dc460681b6b0daf7f46e25ff5898c4a873605fafd22e37ebb277dd26d0d42f"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:58:55 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=cwkMSMlQMg-1m6eqIFRbfF774eGzvrme_gTVHkjk-RE&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=02baf80342fe83360b9122e9ecf57b236c71a3ffc28d2df4c26ff9e6e9de30ea
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?error=access_denied&error_description=The+resource+owner+or+authorization+server+denied+the+request.&state=02baf80342fe83360b9122e9ecf57b236c71a3ffc28d2df4c26ff9e6e9de30ea" for 172.19.0.1 at 2026-10-27 18:58:57 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"error" => "access_denied", "error_description" => "The resource owner or authorization server denied the request.", "state" => "02baf80342fe83360b9122e9ecf57b236c71a3ffc28d2df4c26ff9e6e9de30ea"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 18:59:17 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=R-JvqbNKW97BCwA9bccL88NvNR0PFq5a18Kc0rizjUI&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=fa0ecba2b6e0d92342cda88aa0256c3a1a9450383a871d3690d9db332aba356b
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=8fIzV_v62oAXxfp4K109uG7fiA-VWAPJiAo1lW4jGik&state=fa0ecba2b6e0d92342cda88aa0256c3a1a9450383a871d3690d9db332aba356b" for 172.19.0.1 at 2026-10-27 18:59:19 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "8fIzV_v62oAXxfp4K109uG7fiA-VWAPJiAo1lW4jGik", "state" => "fa0ecba2b6e0d92342cda88aa0256c3a1a9450383a871d3690d9db332aba356b"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:59:19 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=CiwSVwLUftRY1Gp4CJlwdfA-g5O0SWlqYGjqpAvnSrs&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=bfac83b1fc29b1be182f3f056a4271a13aae1bd9836febf865a7bf45644fec83
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=aVN0CV0NRxLBYquqaO8C5nxxPVvUvDJPdvKC6CJ0ki4&state=bfac83b1fc29b1be182f3f056a4271a13aae1bd9836febf865a7bf45644fec83" for 172.19.0.1 at 2026-10-27 18:59:21 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "aVN0CV0NRxLBYquqaO8C5nxxPVvUvDJPdvKC6CJ0ki4", "state" => "bfac83b1fc29b1be182f3f056a4271a13aae1bd9836febf865a7bf45644fec83"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:59:21 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=TScvRTfubj0DgBlX22q6UxV-p8JAP-fuuZAqq1m6VV0&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=07fba591ccae968e47366f82df3e88775084bf0d1659a9a616c72d77bb9fe616
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=HjqDKesg93tMJbJoBXWAMPzMzCA_gcFXoSHzJWZtbqI&state=07fba591ccae968e47366f82df3e88775084bf0d1659a9a616c72d77bb9fe616" for 172.19.0.1 at 2026-10-27 18:59:22 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "HjqDKesg93tMJbJoBXWAMPzMzCA_gcFXoSHzJWZtbqI", "state" => "07fba591ccae968e47366f82df3e88775084bf0d1659a9a616c72d77bb9fe616"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:59:22 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=ZMg25zhmbHi0b9pQ7FhDRIh469nESclvR0mnd0NupHA&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=6ef3d3559106bd826d61223b271592e7daa083288c22a21a3b20e60f5794fb13
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=06hYM45xZr0ku8PgT-3HoFXKfSZuO99hNbvu2gXjwkI&state=6ef3d3559106bd826d61223b271592e7daa083288c22a21a3b20e60f5794fb13" for 172.19.0.1 at 2026-10-27 18:59:22 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "06hYM45xZr0ku8PgT-3HoFXKfSZuO99hNbvu2gXjwkI", "state" => "6ef3d3559106bd826d61223b271592e7daa083288c22a21a3b20e60f5794fb13"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:59:22 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=88T0XpGM4EvMIxqIEzJLk8NZZpAkEkM1vYEq4hdJsNg&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=486d588d1d557b708aa908db1e6079a9306370c824e2ee1744d2ba3a886a78f7
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=BqtH_k3U9rjLqGckRdWsGBA4kfbaDaLvOXmJ1TrhBGA&state=486d588d1d557b708aa908db1e6079a9306370c824e2ee1744d2ba3a886a78f7" for 172.19.0.1 at 2026-10-27 18:59:23 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "BqtH_k3U9rjLqGckRdWsGBA4kfbaDaLvOXmJ1TrhBGA", "state" => "486d588d1d557b708aa908db1e6079a9306370c824e2ee1744d2ba3a886a78f7"}
+OAuth2 token exchange failed: OAuth2::Error
+Redirected to http://localhost:3001/oauth/login
+↳ app/controllers/oauth/sessions_controller.rb:56:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 18:59:23 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=kky1_csLhKAA1z0sdXJExzELozyTLA4zvQiDDvEJkn8&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=a4bb5604d52252f58574acad162971033fbd52747302b29eb6a92fff52d7d651
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login?utm_source=chatgpt.com" for 172.19.0.1 at 2026-10-27 19:01:18 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+  Parameters: {"utm_source" => "chatgpt.com"}
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=OLcaElLGkbWcy-qICqwYNySq_od4fGcQExT1qdSfKnc&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=1d9f603fa0a364b04af12e1413d312c061af6a488754a7a546ba11cc860c1d7b
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=uRcGQqt1nvMQ86XUrksfN-EIB3OhM1SgUVqikJc964Q&state=1d9f603fa0a364b04af12e1413d312c061af6a488754a7a546ba11cc860c1d7b" for 172.19.0.1 at 2026-10-27 19:01:20 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "uRcGQqt1nvMQ86XUrksfN-EIB3OhM1SgUVqikJc964Q", "state" => "1d9f603fa0a364b04af12e1413d312c061af6a488754a7a546ba11cc860c1d7b"}
+OAuth2 token exchange failed: OAuth2::Error - invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+{"error":"invalid_client","error_description":"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method."}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | GC: 0.0ms)
+Completed 502 Bad Gateway in 14ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 19:06:43 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=_8VNImiMAGRq1B-ZCiLjf61t1DVvU7WpjoUSiv7u8cU&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=16386afc975d1f7abf877a5e168cbd89693b0f61813d35308dc57196d2058556
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=IXCwHGVCBdwY_JXs_17ne2puWUFv5ur04at_ehybvjg&state=16386afc975d1f7abf877a5e168cbd89693b0f61813d35308dc57196d2058556" for 172.19.0.1 at 2026-10-27 19:06:44 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "IXCwHGVCBdwY_JXs_17ne2puWUFv5ur04at_ehybvjg", "state" => "16386afc975d1f7abf877a5e168cbd89693b0f61813d35308dc57196d2058556"}
+OAuth2 token exchange failed: OAuth2::Error - invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+{"error":"invalid_client","error_description":"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method."}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | GC: 0.0ms)
+Completed 502 Bad Gateway in 15ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 19:09:37 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=EtbO_rnMF8wm2L-X6HPWDzwraeF7APRxqoKODgQumSI&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=21cf01ff8cbb4c356b092bfd7a539f9e5525fcd0f8c92f3e1517135a8a8e89a3
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 19:11:09 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=XiWzfK5lbq_8wMBv0HjAhtj4JGG0GEfEakLzpzcx0oI&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=3c2bbeb3376d128f1ad460391a2786713a6bb82117b6ae4da183621b3139e526
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=mmKDy3sPbVDCd2ZNEYg3C-gTB44BEAQi5nQEhxDskn0&state=3c2bbeb3376d128f1ad460391a2786713a6bb82117b6ae4da183621b3139e526" for 172.19.0.1 at 2026-10-27 19:11:10 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "mmKDy3sPbVDCd2ZNEYg3C-gTB44BEAQi5nQEhxDskn0", "state" => "3c2bbeb3376d128f1ad460391a2786713a6bb82117b6ae4da183621b3139e526"}
+OAuth2 token exchange failed: OAuth2::Error - invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+{"error":"invalid_client","error_description":"Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method."}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | GC: 0.0ms)
+Completed 502 Bad Gateway in 13ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Using vips to process variants requires the libvips library. Please install libvips using the instructions on the libvips website.
+Started GET "/oauth/login" for 172.19.0.1 at 2026-10-27 19:17:15 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='ClinicService'*/[0m
+Processing by Oauth::SessionsController#create as HTML
+Redirected to http://localhost:3000/oauth/authorize?client_id=UEvlF43qivt_DPHIkc0XhOnnQUjP2gzoZ_Lf_7thkHY&code_challenge=mBiFoQfik80iMBO_UAl5pn7xVnJ6Z5a31U4DBbFpNOk&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Foauth%2Fcallback&response_type=code&scope=read&state=50a8481782b3277f0764e0d9a729d838ac9f2a0a7dae87a9cae79b7c2fd8b9fd
+↳ app/controllers/oauth/sessions_controller.rb:24:in 'Oauth::SessionsController#create'
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/oauth/callback?code=fFCwAlJ28WIE5t2GZHLf1PP-VtJ6HByyi7TnZeb0VaI&state=50a8481782b3277f0764e0d9a729d838ac9f2a0a7dae87a9cae79b7c2fd8b9fd" for 172.19.0.1 at 2026-10-27 19:17:16 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by Oauth::SessionsController#callback as HTML
+  Parameters: {"code" => "fFCwAlJ28WIE5t2GZHLf1PP-VtJ6HByyi7TnZeb0VaI", "state" => "50a8481782b3277f0764e0d9a729d838ac9f2a0a7dae87a9cae79b7c2fd8b9fd"}
+Redirected to http://localhost:3001/
+↳ app/controllers/oauth/sessions_controller.rb:53:in 'Oauth::SessionsController#callback'
+Completed 302 Found in 33ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 172.19.0.1 at 2026-10-27 19:17:16 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by ClinicsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering clinics/index.html.erb within layouts/application
+  Rendered clinics/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | GC: 0.0ms)
+Completed 200 OK in 23ms (Views: 5.2ms | ActiveRecord: 3.5ms (0 queries, 0 cached) | GC: 0.0ms)
+
+

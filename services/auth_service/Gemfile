@@ -65,3 +65,5 @@ end
 gem "devise"
 gem "action_policy"
 gem "acts_as_tenant"
+
+gem "doorkeeper", "~> 5.9"

@@ -63,6 +63,12 @@ services:
       AWS_REGION: us-east-1
       AWS_ENDPOINT_URL: http://localstack:4566
 
+      CLINIC_OAUTH_CLIENT_ID: ${CLINIC_OAUTH_CLIENT_ID}
+      CLINIC_OAUTH_CLIENT_SECRET: ${CLINIC_OAUTH_CLIENT_SECRET}
+      OAUTH_AUTHORIZATION_URL: http://localhost:3000/oauth/authorize
+      OAUTH_TOKEN_URL: http://auth_service:3000/oauth/token
+      OAUTH_REDIRECT_URI: http://localhost:3001/oauth/callback
+
     depends_on:
       postgres:
         condition: service_healthy
